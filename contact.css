@@ -1,0 +1,37 @@
+body{
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    text-align: center;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.1s;
+}
+h1:hover{
+    border: 5px solid yellowgreen;
+    border-radius: 20px;
+    background-color: white;
+    color: purple;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color:blue;
+}
+a:hover{
+    padding: 5px;
+    border: 3px solid forestgreen;
+    border-radius: 15px;
+    background-color: white;
+    color: blueviolet
+}
+li{
+    list-style:none;
+   
+}
+fieldset{
+    border: 5px solid white;
+    background-color: whitesmoke;
+}
